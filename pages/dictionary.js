@@ -3,7 +3,7 @@ import WordList from '../components/WordList';
 
 const Dictionary = () => {
   return (
-    <div className="flex flex-col items-center text-center mb-4">
+    <div className="flex flex-col items-center text-center mb-4 pt-16">
       <Navbar />
       <WordList />
     </div>

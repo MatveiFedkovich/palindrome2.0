@@ -2,7 +2,7 @@ import Navbar from '../components/Navbar';
 
 const Home = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center">
+    <div className="flex flex-col items-center justify-center text-center mt-14">
       <Navbar />
       <h1 className="text-3xl md:text-4xl font-bold mt-10">Что такое палиндром?</h1>
       <p className="text-lg md:text-xl mt-4 max-w-2xl">
