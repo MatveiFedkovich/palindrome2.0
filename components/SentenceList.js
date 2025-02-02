@@ -8,8 +8,8 @@ const SentenceList = () => {
                                     .sort();
   
     return (
-      <div className="text-left mt-6 w-full max-w-md">
-        <h2 className="text-2xl font-bold">Список предложений-палиндромов</h2>
+      <div className="text-left mt-6 w-full max-w-md px-4 md:px-8">
+        <h2 className="text-2xl font-bold">Список фраз-палиндромов</h2>
         <input 
           type="text" 
           placeholder="Поиск..." 

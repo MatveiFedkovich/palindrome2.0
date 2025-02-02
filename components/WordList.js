@@ -8,7 +8,7 @@ const WordList = () => {
                             .sort();
   
     return (
-      <div className="text-left mt-6 w-full max-w-md">
+      <div className="text-left mt-6 w-full max-w-md px-4 md:px-8">
         <h2 className="text-2xl font-bold">Список слов-палиндромов</h2>
         <input 
           type="text" 
