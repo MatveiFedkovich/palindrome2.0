@@ -5,13 +5,9 @@ const PdfViewer = dynamic(() => import("../components/PdfViewer"), { ssr: false 
 
 const PdfPage = () => {
   return (
-    <div className="flex flex-col items-center justify-center text-center mt-14">
+    <div className="flex flex-col items-center justify-center text-center mt-28 md:mt-0">
       <Navbar />
-      <h1 className="text-3xl md:text-4xl font-bold mt-10">Читать PDF-документ</h1>
-      <p className="text-lg md:text-xl mt-4 max-w-2xl">
-        Ниже представлен PDF-документ, который вы можете пролистывать.
-      </p>
-      <div className="mt-6 w-full max-w-4xl">
+        <div className="mt-6 w-full max-w-4xl">
         <PdfViewer />
       </div>
     </div>
