@@ -6,7 +6,7 @@ const Navbar = () => {
       <Link href="/" className="text-lg font-semibold ml-4">Главная</Link>
       <Link href="/dictionary" className="text-lg font-semibold">Слова-палиндромы</Link>
       <Link href="/sentences" className="text-lg font-semibold mr-4">Фразы-палиндромы</Link>
-      <Link href="/pdfPage" className="text-lg font-semibold mr-4">Рабочий лист</Link>
+      <Link href="/taskPage" className="text-lg font-semibold mr-4">Рабочий лист</Link>
     </nav>
   );
 };
