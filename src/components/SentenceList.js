@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import sentences from '../data/sentences';
+import sentences from '../../data/sentences';
 
 const SentenceList = () => {
     const [search, setSearch] = useState('');

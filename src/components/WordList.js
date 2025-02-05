@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import words from '../data/words';
+import words from '../../data/words';
 
 const WordList = () => {
     const [search, setSearch] = useState('');
